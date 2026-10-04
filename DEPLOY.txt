@@ -1,0 +1,17 @@
+SENTINEL LIVE MAP BUILD
+
+Windows local build:
+1. Open CMD in this folder.
+2. npm install
+3. npm run build
+4. Upload the generated dist folder to Netlify Drop.
+
+Netlify Git deployment:
+- Build command: npm run build
+- Publish directory: dist
+- netlify.toml is already included.
+
+Map notes:
+- OpenStreetMap tiles require internet access.
+- Google Maps link is included for the same incident area.
+- Full Google Maps JavaScript integration requires a Google Maps API key and billing-enabled Google Cloud project.
